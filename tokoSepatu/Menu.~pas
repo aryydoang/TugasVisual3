@@ -28,7 +28,7 @@ var
 
 implementation
 
-uses Karyawan, Pelanggan, Supplier;
+uses Karyawan, Pelanggan;
 {$R *.dfm}
 
 procedure TFormMenu.KARYAWAN1Click(Sender: TObject);

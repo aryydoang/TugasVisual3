@@ -6,8 +6,7 @@ uses
   Menu in 'Menu.pas' {FormMenu},
   Karyawan in 'Karyawan.pas' {FormKaryawan},
   Pelanggan in 'Pelanggan.pas' {FormPelanggan},
-  Supplier in 'Supplier.pas' {FormSupplier},
-  Sepatu in 'Sepatu.pas' {FormSepatu};
+  Supplier in 'Supplier.pas' {FormSupplier};
 
 {$R *.res}
 
@@ -18,6 +17,5 @@ begin
   Application.CreateForm(TFormKaryawan, FormKaryawan);
   Application.CreateForm(TFormPelanggan, FormPelanggan);
   Application.CreateForm(TFormSupplier, FormSupplier);
-  Application.CreateForm(TFormSepatu, FormSepatu);
   Application.Run;
 end.

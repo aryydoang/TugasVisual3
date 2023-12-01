@@ -1,6 +1,6 @@
 object FormKaryawan: TFormKaryawan
-  Left = 246
-  Top = 136
+  Left = 651
+  Top = 194
   Width = 831
   Height = 612
   Caption = 'FormKaryawan'
@@ -274,7 +274,6 @@ object FormKaryawan: TFormKaryawan
   end
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP
-    UTF8StringsAsWideField = False
     AutoEncodeStrings = False
     Connected = True
     HostName = 'localhost'
@@ -282,13 +281,12 @@ object FormKaryawan: TFormKaryawan
     Database = 'toko_sepatu'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\Users\Fety Fatimah\Documents\tokoSepatu\libmysql.dll'
+    LibraryLocation = 'D:\joki\tokoSepatu\tokoSepatu\libmysql.dll'
     Left = 40
     Top = 512
   end
   object zqry1: TZQuery
     Connection = ZConnection1
-    Active = True
     SQL.Strings = (
       'select*from tabel_karyawan')
     Params = <>

@@ -1,7 +1,7 @@
 object FormLogin: TFormLogin
-  Left = 244
-  Top = 155
-  Width = 393
+  Left = 367
+  Top = 198
+  Width = 1044
   Height = 540
   Caption = 'FormLogin'
   Color = clBtnFace
@@ -110,25 +110,22 @@ object FormLogin: TFormLogin
   end
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP
-    UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'toko_sepatu'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\Users\Fety Fatimah\Documents\tokoSepatu\libmysql.dll'
-    Left = 140
-    Top = 453
+    LibraryLocation = 'D:\joki\tokoSepatu\tokoSepatu\libmysql.dll'
+    Left = 420
+    Top = 101
   end
   object zqry1: TZQuery
     Connection = ZConnection1
-    Active = True
     SQL.Strings = (
       'select*from login')
     Params = <>
-    Left = 40
-    Top = 456
+    Left = 392
+    Top = 160
   end
 end
