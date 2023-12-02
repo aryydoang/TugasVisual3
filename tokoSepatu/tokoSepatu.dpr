@@ -7,7 +7,11 @@ uses
   Karyawan in 'Karyawan.pas' {FormKaryawan},
   Pelanggan in 'Pelanggan.pas' {FormPelanggan},
   Supplier in 'Supplier.pas' {FormSupplier},
-  Sepatu in 'Sepatu.pas' {FormSepatu};
+  Sepatu in 'Sepatu.pas' {FormSepatu},
+  Transaksi in 'Transaksi.pas' {FormTransaksi},
+  Penjualan in 'Penjualan.pas' {FormPembelian},
+  DetailTransaksi in 'DetailTransaksi.pas' {FormDetailTransaksi},
+  DetailPembelian in 'DetailPembelian.pas' {FormDetailPembelian};
 
 {$R *.res}
 
@@ -19,5 +23,9 @@ begin
   Application.CreateForm(TFormPelanggan, FormPelanggan);
   Application.CreateForm(TFormSupplier, FormSupplier);
   Application.CreateForm(TFormSepatu, FormSepatu);
+  Application.CreateForm(TFormTransaksi, FormTransaksi);
+  Application.CreateForm(TFormPembelian, FormPembelian);
+  Application.CreateForm(TFormDetailTransaksi, FormDetailTransaksi);
+  Application.CreateForm(TFormDetailPembelian, FormDetailPembelian);
   Application.Run;
 end.

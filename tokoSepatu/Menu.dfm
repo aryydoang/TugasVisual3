@@ -1,6 +1,6 @@
 object FormMenu: TFormMenu
-  Left = 253
-  Top = 182
+  Left = 397
+  Top = 213
   Width = 1044
   Height = 540
   Caption = 'FormMenu'
@@ -28,8 +28,8 @@ object FormMenu: TFormMenu
     ParentFont = False
   end
   object mm1: TMainMenu
-    Left = 32
-    Top = 16
+    Left = 17
+    Top = 17
     object MENU1: TMenuItem
       Caption = 'MENU'
       object KARYAWAN1: TMenuItem
@@ -43,6 +43,26 @@ object FormMenu: TFormMenu
       object SUPPLIER1: TMenuItem
         Caption = 'SUPPLIER'
         OnClick = SUPPLIER1Click
+      end
+      object RANSAKSI1: TMenuItem
+        Caption = 'TRANSAKSI'
+        OnClick = RANSAKSI1Click
+      end
+      object PEMBELIAN1: TMenuItem
+        Caption = 'PEMBELIAN'
+        OnClick = PEMBELIAN1Click
+      end
+      object SEPATU1: TMenuItem
+        Caption = 'SEPATU'
+        OnClick = SEPATU1Click
+      end
+      object DETAILTRANSAKSI1: TMenuItem
+        Caption = 'DETAIL TRANSAKSI'
+        OnClick = DETAILTRANSAKSI1Click
+      end
+      object DETAILPEMBELIAN1: TMenuItem
+        Caption = 'DETAIL PEMBELIAN'
+        OnClick = DETAILPEMBELIAN1Click
       end
     end
   end

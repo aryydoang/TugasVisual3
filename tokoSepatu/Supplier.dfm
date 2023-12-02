@@ -1,6 +1,6 @@
 object FormSupplier: TFormSupplier
-  Left = 349
-  Top = 106
+  Left = 386
+  Top = 169
   Width = 618
   Height = 615
   Caption = 'FormSupplier'

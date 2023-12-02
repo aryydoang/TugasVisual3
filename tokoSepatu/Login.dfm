@@ -1,8 +1,8 @@
 object FormLogin: TFormLogin
-  Left = 244
-  Top = 155
+  Left = 483
+  Top = 193
   Width = 393
-  Height = 540
+  Height = 521
   Caption = 'FormLogin'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -112,7 +112,6 @@ object FormLogin: TFormLogin
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'toko_sepatu'
@@ -124,7 +123,6 @@ object FormLogin: TFormLogin
   end
   object zqry1: TZQuery
     Connection = ZConnection1
-    Active = True
     SQL.Strings = (
       'select*from login')
     Params = <>
